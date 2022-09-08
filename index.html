@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.66.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="alternate" href="index.xml" type="application/rss+xml" title="SpeechResearch">
+<title>Enriching Style Transfer in multi-scale control based personalized end-to-end speech synthesis</title>
+</head>
+<body>
+
+<div class="container">
+	<main role="main">
+		<article>
+      
+      <h3 class="title">Enriching Style Transfer in multi-scale control based personalized end-to-end speech synthesis</h3>
+      
+      <p class="authors"><strong>Zhongcai Lyu, Jie Zhu</strong></p>
+	  
+	  <h4 class="section">Evaluation on unseen speakers </h4>
+
+	  <p class="transcript"><em>Another engineer rushed toward the door to see what was happening outside.</em></p>
+      <table>
+        <thead style="border-bottom: 1px solid #E1E1E1;"><tr>
+        <th>Reference Audio</th>
+        <th>Model</th>
+        <th></th>
+        </tr></thead>
+        <tbody>
+        <tr>
+        <td rowspan="5"><audio controls="controls"><source src="audio/5/5-ref.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        <td><b><p>X-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/5/5-1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>GST-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/5/5-2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-NS-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/5/5-3.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/5/5-4.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-P</p></b></td>
+        <td><audio controls="controls"><source src="audio/5/5-5.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr></tbody>
+      </table>	 
+
+	  <p class="transcript"><em>Over the fireplace there was a large old-fashioned gilt mirror.</em></p>
+      <table>
+        <thead style="border-bottom: 1px solid #E1E1E1;"><tr>
+        <th>Reference Audio</th>
+        <th>Model</th>
+        <th></th>
+        </tr></thead>
+        <tbody>
+        <tr>
+        <td rowspan="5"><audio controls="controls"><source src="audio/6/6-ref.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        <td><b><p>X-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/6/6-1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>GST-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/6/6-2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-NS-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/6/6-3.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/6/6-4.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-P</p></b></td>
+        <td><audio controls="controls"><source src="audio/6/6-5.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr></tbody>
+      </table>	  
+
+	  <p class="transcript"><em>There is one sort of ignorance which originates in extreme publicity.</em></p>
+      <table>
+        <thead style="border-bottom: 1px solid #E1E1E1;"><tr>
+        <th>Reference Audio</th>
+        <th>Model</th>
+        <th></th>
+        </tr></thead>
+        <tbody>
+        <tr>
+        <td rowspan="5"><audio controls="controls"><source src="audio/7/7-ref.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        <td><b><p>X-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/7/7-1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>GST-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/7/7-2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-NS-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/7/7-3.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/7/7-4.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-P</p></b></td>
+        <td><audio controls="controls"><source src="audio/7/7-5.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr></tbody>
+      </table>	
+
+      <p class="transcript"><em>Captain Bennydeck had landed, to all appearance in fairly good health; and had left by an early train for London.</em></p>
+      <table>
+        <thead style="border-bottom: 1px solid #E1E1E1;"><tr>
+        <th>Reference Audio</th>
+        <th>Model</th>
+        <th></th>
+        </tr></thead>
+        <tbody>
+        <tr>
+        <td rowspan="5"><audio controls="controls"><source src="audio/1/1-ref.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        <td><b><p>X-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/1/1-1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>GST-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/1/1-2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-NS-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/1/1-3.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/1/1-4.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-P</p></b></td>
+        <td><audio controls="controls"><source src="audio/1/1-5.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr></tbody>
+      </table>
+	  
+	  <p class="transcript"><em>It was clear to him that virtue and happiness are independent of these things, if not incompatible with them.</em></p>
+      <table>
+        <thead style="border-bottom: 1px solid #E1E1E1;"><tr>
+        <th>Reference Audio</th>
+        <th>Model</th>
+        <th></th>
+        </tr></thead>
+        <tbody>
+        <tr>
+        <td rowspan="5"><audio controls="controls"><source src="audio/2/2-ref.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        <td><b><p>X-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/2/2-1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>GST-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/2/2-2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-NS-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/2/2-3.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/2/2-4.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-P</p></b></td>
+        <td><audio controls="controls"><source src="audio/2/2-5.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr></tbody>
+      </table>
+
+	  <p class="transcript"><em>If the pie is not to be eaten immediately, omit the herbs and parsley, as these would prevent it from keeping.</em></p>
+      <table>
+        <thead style="border-bottom: 1px solid #E1E1E1;"><tr>
+        <th>Reference Audio</th>
+        <th>Model</th>
+        <th></th>
+        </tr></thead>
+        <tbody>
+        <tr>
+        <td rowspan="5"><audio controls="controls"><source src="audio/3/3-ref.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        <td><b><p>X-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/3/3-1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>GST-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/3/3-2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-NS-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/3/3-3.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/3/3-4.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-P</p></b></td>
+        <td><audio controls="controls"><source src="audio/3/3-5.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr></tbody>
+      </table>
+	  
+	  <p class="transcript"><em>Stables and other offices occupied another side of the square.</em></p>
+      <table>
+        <thead style="border-bottom: 1px solid #E1E1E1;"><tr>
+        <th>Reference Audio</th>
+        <th>Model</th>
+        <th></th>
+        </tr></thead>
+        <tbody>
+        <tr>
+        <td rowspan="5"><audio controls="controls"><source src="audio/4/4-ref.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        <td><b><p>X-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/4/4-1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>GST-Base</p></b></td>
+        <td><audio controls="controls"><source src="audio/4/4-2.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-NS-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/4/4-3.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-NP</p></b></td>
+        <td><audio controls="controls"><source src="audio/4/4-4.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr>
+        <tr>
+        <td><b><p>R-S-P</p></b></td>
+        <td><audio controls="controls"><source src="audio/4/4-5.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+        </tr></tbody>
+      </table>
+	 
+	  
+		</article>
+	</main>
+
+
+</div>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-139981676-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+         HTML: ["input/TeX","output/HTML-CSS"],
+         TeX: {
+                Macros: {
+                         bm: ["\\boldsymbol{#1}", 1],
+                         argmax: ["\\mathop{\\rm arg\\,max}\\limits"],
+                         argmin: ["\\mathop{\\rm arg\\,min}\\limits"]},
+                extensions: ["AMSmath.js","AMSsymbols.js"],
+                equationNumbers: { autoNumber: "AMS" } },
+         extensions: ["tex2jax.js"],
+         jax: ["input/TeX","output/HTML-CSS"],
+         tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                    processEscapes: true },
+         "HTML-CSS": { availableFonts: ["TeX"],
+                       linebreaks: { automatic: true } }
+     });
+ </script>
+
+ <script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+       tex2jax: {
+         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+       }
+     });
+ </script>
+
+ <script type="text/javascript" async
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+ </script>
+
+</body>
+</html>
